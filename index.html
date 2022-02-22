@@ -152,7 +152,7 @@
         var rockAmount=100;
         for(i=1;i<=rockAmount;i++){
             
-            var dateAvailable=new Date(1644192000000+(604800000*(i-1)))
+            var dateAvailable=new Date(1646092800000+(604800000*(i-1)))
             let isAvailable=Date.now()>=dateAvailable;
             let readableOptions={ hour:"numeric", weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: "short" }
             let dateAvailableReadable=dateAvailable.toLocaleDateString("en-US");
